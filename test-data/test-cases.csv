@@ -1,0 +1,3 @@
+TC ID,Input,Expected output,Actual output,Status
+TC001,Hello,හෙලෝ,,
+TC002,World,වර්ල්ඩ්,,
