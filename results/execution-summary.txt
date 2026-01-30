@@ -1,0 +1,68 @@
+
+=============================================
+        TRANSLATION SYSTEM TEST SUMMARY
+=============================================
+Execution Date: 1/30/2026, 6:07:21 PM
+Target System:  https://www.swifttranslator.com/
+Environment:    Node.js v22.12.0 / Playwright Chromium
+
+---------------------------------------------
+TEST STATISTICS
+---------------------------------------------
+Total Tests:      36
+Passed:           36
+Failed/Errors:    0
+Pass Rate:        100.00%
+Duration:         157.99 seconds
+
+---------------------------------------------
+OUTPUT ARTIFACTS
+---------------------------------------------
+1. Excel Workbook: results/test-results.xlsx
+2. HTML Report:     results/execution-report.html
+3. Screenshots:     test-reports/screenshots/
+4. Videos:          test-reports/videos/
+
+---------------------------------------------
+DETAILED RESULTS BY CASE
+---------------------------------------------
+01. [P_TC_01] Pass   | Simple sentence test
+02. [P_TC_02] Pass   | Compound sentence test
+03. [P_TC_03] Pass   | Conditional sentence test
+04. [P_TC_04] Pass   | Interrogative sentence conversion
+05. [P_TC_05] Pass   | Command sentence conversion
+06. [P_TC_06] Pass   | Future tense test
+07. [P_TC_07] Pass   | Negative sentence test
+08. [P_TC_08] Pass   | Greeting conversion
+09. [P_TC_09] Pass   | Polite request test
+10. [P_TC_10] Pass   | Informal phrasing test
+11. [P_TC_11] Pass   | Daily expression test
+12. [P_TC_12] Pass   | Multi-word text conversion
+13. [P_TC_13] Pass   | No-space input test
+14. [P_TC_14] Pass   | Repeated words test
+15. [P_TC_15] Pass   | Past tense test
+16. [P_TC_16] Pass   | Informal negation test
+17. [P_TC_17] Pass   | Singular pronoun test
+18. [P_TC_18] Pass   | Plural pronoun test
+19. [P_TC_19] Pass   | Imperative request test
+20. [P_TC_20] Pass   | Mixed language technical test
+21. [P_TC_21] Pass   | English place name test
+22. [P_TC_22] Pass   | English abbreviation test
+23. [P_TC_23] Pass   | Punctuation validation
+24. [P_TC_24] Pass   | Date and Time format test
+25. [N_TC_01] Pass   | Short abbreviation test
+26. [N_TC_02] Pass   | Unusual slang test
+27. [N_TC_03] Pass   | Extreme concatenation test
+28. [N_TC_04] Pass   | Excessive spacing test
+29. [N_TC_05] Pass   | Mixed case abbreviation test
+30. [N_TC_06] Pass   | Punctuation spam test
+31. [N_TC_07] Pass   | Currency symbol test
+32. [N_TC_08] Pass   | Long mixed content test
+33. [N_TC_09] Pass   | Rare colloquialism test
+34. [N_TC_10] Pass   | Tense inconsistency test
+35. [UI_TC_01] Pass   | Real-time update test
+36. [UI_TC_02] Pass   | Clear button test
+
+=============================================
+             END OF EXECUTION
+=============================================

@@ -1,0 +1,333 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\DINETH\\OneDrive\\Desktop\\Group Project\\Project Y3.S2\\I.T.P.M\\Automated Testing\\singlish-sinhala-playwright-tests\\playwright.config.ts",
+    "rootDir": "C:/Users/DINETH/OneDrive/Desktop/Group Project/Project Y3.S2/I.T.P.M/Automated Testing/singlish-sinhala-playwright-tests/src/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/DINETH/OneDrive/Desktop/Group Project/Project Y3.S2/I.T.P.M/Automated Testing/singlish-sinhala-playwright-tests/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/DINETH/OneDrive/Desktop/Group Project/Project Y3.S2/I.T.P.M/Automated Testing/singlish-sinhala-playwright-tests/src/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.0",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "playwright-tests.spec.js",
+      "file": "playwright-tests.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Translation System Tests",
+          "file": "playwright-tests.spec.js",
+          "line": 47,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Positive functional test cases",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 144666,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Test P_TC_01: Simple sentence test",
+                          "duration": 3621
+                        },
+                        {
+                          "title": "Test P_TC_02: Compound sentence test",
+                          "duration": 4591
+                        },
+                        {
+                          "title": "Test P_TC_03: Conditional sentence test",
+                          "duration": 8834
+                        },
+                        {
+                          "title": "Test P_TC_04: Interrogative sentence conversion",
+                          "duration": 3799
+                        },
+                        {
+                          "title": "Test P_TC_05: Command sentence conversion",
+                          "duration": 7183
+                        },
+                        {
+                          "title": "Test P_TC_06: Future tense test",
+                          "duration": 7030
+                        },
+                        {
+                          "title": "Test P_TC_07: Negative sentence test",
+                          "duration": 3611
+                        },
+                        {
+                          "title": "Test P_TC_08: Greeting conversion",
+                          "duration": 7202
+                        },
+                        {
+                          "title": "Test P_TC_09: Polite request test",
+                          "duration": 7117
+                        },
+                        {
+                          "title": "Test P_TC_10: Informal phrasing test",
+                          "duration": 6735
+                        },
+                        {
+                          "title": "Test P_TC_11: Daily expression test",
+                          "duration": 7474
+                        },
+                        {
+                          "title": "Test P_TC_12: Multi-word text conversion",
+                          "duration": 7287
+                        },
+                        {
+                          "title": "Test P_TC_13: No-space input test",
+                          "duration": 7080
+                        },
+                        {
+                          "title": "Test P_TC_14: Repeated words test",
+                          "duration": 7572
+                        },
+                        {
+                          "title": "Test P_TC_15: Past tense test",
+                          "duration": 7217
+                        },
+                        {
+                          "title": "Test P_TC_16: Informal negation test",
+                          "duration": 7103
+                        },
+                        {
+                          "title": "Test P_TC_17: Singular pronoun test",
+                          "duration": 7149
+                        },
+                        {
+                          "title": "Test P_TC_18: Plural pronoun test",
+                          "duration": 7095
+                        },
+                        {
+                          "title": "Test P_TC_19: Imperative request test",
+                          "duration": 3602
+                        },
+                        {
+                          "title": "Test P_TC_20: Mixed language technical test",
+                          "duration": 7119
+                        },
+                        {
+                          "title": "Test P_TC_21: English place name test",
+                          "duration": 3595
+                        },
+                        {
+                          "title": "Test P_TC_22: English abbreviation test",
+                          "duration": 3593
+                        },
+                        {
+                          "title": "Test P_TC_23: Punctuation validation",
+                          "duration": 3575
+                        },
+                        {
+                          "title": "Test P_TC_24: Date and Time format test",
+                          "duration": 3632
+                        }
+                      ],
+                      "startTime": "2026-01-30T10:51:13.228Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8de820c49346a9106307-dde87d80d541089c17a6",
+              "file": "playwright-tests.spec.js",
+              "line": 99,
+              "column": 5
+            },
+            {
+              "title": "Negative functional test cases",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 37010,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Test N_TC_01: Short abbreviation test",
+                          "duration": 2622
+                        },
+                        {
+                          "title": "Test N_TC_02: Unusual slang test",
+                          "duration": 2584
+                        },
+                        {
+                          "title": "Test N_TC_03: Extreme concatenation test",
+                          "duration": 2571
+                        },
+                        {
+                          "title": "Test N_TC_04: Excessive spacing test",
+                          "duration": 7162
+                        },
+                        {
+                          "title": "Test N_TC_05: Mixed case abbreviation test",
+                          "duration": 2567
+                        },
+                        {
+                          "title": "Test N_TC_06: Punctuation spam test",
+                          "duration": 2569
+                        },
+                        {
+                          "title": "Test N_TC_07: Currency symbol test",
+                          "duration": 2654
+                        },
+                        {
+                          "title": "Test N_TC_08: Long mixed content test",
+                          "duration": 7102
+                        },
+                        {
+                          "title": "Test N_TC_09: Rare colloquialism test",
+                          "duration": 2607
+                        },
+                        {
+                          "title": "Test N_TC_10: Tense inconsistency test",
+                          "duration": 2633
+                        }
+                      ],
+                      "startTime": "2026-01-30T10:53:38.063Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8de820c49346a9106307-2671d326116923186617",
+              "file": "playwright-tests.spec.js",
+              "line": 135,
+              "column": 5
+            },
+            {
+              "title": "UI test - Real-time update",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9168,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Verify real-time conversion",
+                          "duration": 7336
+                        }
+                      ],
+                      "startTime": "2026-01-30T10:54:15.085Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8de820c49346a9106307-905ab5eef012eef393c1",
+              "file": "playwright-tests.spec.js",
+              "line": 162,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-30T10:51:11.644Z",
+    "duration": 194353.21099999998,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

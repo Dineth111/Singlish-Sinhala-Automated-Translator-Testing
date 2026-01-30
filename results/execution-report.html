@@ -1,0 +1,570 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Test Execution Report</title>
+            <style>
+                body { 
+                    font-family: Arial, sans-serif; 
+                    background-color: #f4f7f9; 
+                    color: #333; 
+                    margin: 0;
+                    padding: 20px;
+                }
+                .container { 
+                    max-width: 1100px; 
+                    margin: 0 auto; 
+                    background: #fff;
+                    padding: 30px;
+                    border-radius: 8px;
+                    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                }
+                h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+                .summary { 
+                    display: flex; 
+                    justify-content: space-between;
+                    background: #ecf0f1;
+                    padding: 15px;
+                    border-radius: 5px;
+                    margin: 20px 0;
+                }
+                .summary-item { text-align: center; flex: 1; }
+                .summary-item strong { display: block; font-size: 1.2em; color: #2980b9; }
+                
+                table { width: 100%; border-collapse: collapse; margin-top: 25px; }
+                th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+                th { background-color: #34495e; color: white; font-weight: normal; }
+                
+                .status-pass { color: #27ae60; font-weight: bold; }
+                .status-fail { color: #e74c3c; font-weight: bold; }
+                
+                code { 
+                    background: #f8f8f8; 
+                    padding: 2px 4px; 
+                    border-radius: 3px; 
+                    font-family: monospace;
+                    font-size: 0.9em;
+                }
+                
+                .screenshot-link { color: #3498db; text-decoration: none; }
+                .screenshot-link:hover { text-decoration: underline; }
+                
+                .meta-info { font-size: 0.85em; color: #7f8c8d; margin-top: 5px; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>Translation Test Results</h1>
+                <div class="meta-info">
+                    Execution Time: 1/30/2026, 6:07:21 PM | 
+                    Total Duration: 157.99s
+                </div>
+
+                <div class="summary">
+                    <div class="summary-item">
+                        <strong>36</strong>
+                        Total Tests
+                    </div>
+                    <div class="summary-item">
+                        <strong style="color: #27ae60;">36</strong>
+                        Passed
+                    </div>
+                    <div class="summary-item">
+                        <strong style="color: #e74c3c;">0</strong>
+                        Failed
+                    </div>
+                    <div class="summary-item">
+                        <strong>100.00%</strong>
+                        Pass Rate
+                    </div>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>TC ID</th>
+                            <th>Test Name</th>
+                            <th>Input Sample</th>
+                            <th>Output Sample</th>
+                            <th>Status</th>
+                            <th>Artifacts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td>P_TC_01</td>
+                            <td>Simple sentence test</td>
+                            <td><code>mama gedhara yanavaa...</code></td>
+                            <td><code>මම ගෙදර යනවා.</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_02</td>
+                            <td>Compound sentence test</td>
+                            <td><code>mama gedhara yanavaa...</code></td>
+                            <td><code>මම ගෙදර යනවා, හැබැවි...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_03</td>
+                            <td>Conditional sentence test</td>
+                            <td><code>oya enavaanam mama b...</code></td>
+                            <td><code>ඔය එනවානම් මම බලන් ඉ...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_04</td>
+                            <td>Interrogative sentence conversion</td>
+                            <td><code>oyaata kohomadha?</code></td>
+                            <td><code>ඔයාට කොහොමද?</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_05</td>
+                            <td>Command sentence conversion</td>
+                            <td><code>vahaama enna.</code></td>
+                            <td><code>වහාම එන්න.</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_06</td>
+                            <td>Future tense test</td>
+                            <td><code>api heta enavaa.</code></td>
+                            <td><code>අපි හෙට එනවා.</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_07</td>
+                            <td>Negative sentence test</td>
+                            <td><code>api heta ennee naeha...</code></td>
+                            <td><code>අපි හෙට එන්නේ නැහැ</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_08</td>
+                            <td>Greeting conversion</td>
+                            <td><code>aayuboovan!</code></td>
+                            <td><code>ආයුබෝවන්!</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_09</td>
+                            <td>Polite request test</td>
+                            <td><code>karuNaakaralaa mata ...</code></td>
+                            <td><code>කරුණාකරලා මට පොඩි උද...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_10</td>
+                            <td>Informal phrasing test</td>
+                            <td><code>eeyi, ooka dhiyan.</code></td>
+                            <td><code>ඒයි, ඕක දියන්.</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_11</td>
+                            <td>Daily expression test</td>
+                            <td><code>mata nidhimathayi.</code></td>
+                            <td><code>මට නිදිමතයි.</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_12</td>
+                            <td>Multi-word text conversion</td>
+                            <td><code>mata oona poddak inn...</code></td>
+                            <td><code>මට ඕන පොඩ්ඩක් ඉන්න හ...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_13</td>
+                            <td>No-space input test</td>
+                            <td><code>mamagedharayanavaa</code></td>
+                            <td><code>මමගෙදරයනවා</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_14</td>
+                            <td>Repeated words test</td>
+                            <td><code>hari hari eka eka</code></td>
+                            <td><code>හරි හරි එක එක</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_15</td>
+                            <td>Past tense test</td>
+                            <td><code>mama iyee gedhara gi...</code></td>
+                            <td><code>මම ඉයේ ගෙදර ගියා.</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_16</td>
+                            <td>Informal negation test</td>
+                            <td><code>mata eeka karanna ba...</code></td>
+                            <td><code>මට ඒක කරන්න බෑ.</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_17</td>
+                            <td>Singular pronoun test</td>
+                            <td><code>eyaa gedhara giyaa.</code></td>
+                            <td><code>එයා ගෙදර ගියා.</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_18</td>
+                            <td>Plural pronoun test</td>
+                            <td><code>eyaalaa enavaa.</code></td>
+                            <td><code>එයාලා එනවා.</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_19</td>
+                            <td>Imperative request test</td>
+                            <td><code>eeka dhenna.</code></td>
+                            <td><code>ඒක දෙන්න.</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_20</td>
+                            <td>Mixed language technical test</td>
+                            <td><code>Zoom meeting ekak th...</code></td>
+                            <td><code>Zoom meeting එකක් ති...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_21</td>
+                            <td>English place name test</td>
+                            <td><code>api trip eka Kandy v...</code></td>
+                            <td><code>අපි trip එක Kandy වල...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_22</td>
+                            <td>English abbreviation test</td>
+                            <td><code>mata OTP eka yanna o...</code></td>
+                            <td><code>මට OTP එක යන්න ඕනෙ.</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_23</td>
+                            <td>Punctuation validation</td>
+                            <td><code>oyaath enavadha? (hi...</code></td>
+                            <td><code>ඔයාත් එනවද? (හිතන)</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>P_TC_24</td>
+                            <td>Date and Time format test</td>
+                            <td><code>dhesaembar 25 7.30 A...</code></td>
+                            <td><code>දෙසැම්බර් 25 7.30 AM</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>N_TC_01</td>
+                            <td>Short abbreviation test</td>
+                            <td><code>Thx machan!</code></td>
+                            <td><code>ථx මචන්!</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>N_TC_02</td>
+                            <td>Unusual slang test</td>
+                            <td><code>adoo vaedak baaragat...</code></td>
+                            <td><code>අඩෝ වැඩක් බාරගත්තානම...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>N_TC_03</td>
+                            <td>Extreme concatenation test</td>
+                            <td><code>mamagedharayanavaama...</code></td>
+                            <td><code>මමගෙදරයනවාමටපාන්කන්න...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>N_TC_04</td>
+                            <td>Excessive spacing test</td>
+                            <td><code>mama   gedhara   yan...</code></td>
+                            <td><code></code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>N_TC_05</td>
+                            <td>Mixed case abbreviation test</td>
+                            <td><code>Mata CPU eka replace...</code></td>
+                            <td><code>මට CPU එක replace කර...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>N_TC_06</td>
+                            <td>Punctuation spam test</td>
+                            <td><code>ehema karanna pluwan...</code></td>
+                            <td><code>එහෙම කරන්න ප්ලුwඅන්ද...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>N_TC_07</td>
+                            <td>Currency symbol test</td>
+                            <td><code>Rs. 5343 denna</code></td>
+                            <td><code>Rs. 5343 ඩෙන්න</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>N_TC_08</td>
+                            <td>Long mixed content test</td>
+                            <td><code>mema kramayen katayu...</code></td>
+                            <td><code>මෙම ක්‍රමයෙන් කටයුතු...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>N_TC_09</td>
+                            <td>Rare colloquialism test</td>
+                            <td><code>eka poddak amaaru we...</code></td>
+                            <td><code>එක පොඩ්ඩක් අමාරු wඑඩ...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>N_TC_10</td>
+                            <td>Tense inconsistency test</td>
+                            <td><code>mama iye giyaa, dhae...</code></td>
+                            <td><code>මම ඉයෙ ගියා, දැන් කන...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>UI_TC_01</td>
+                            <td>Real-time update test</td>
+                            <td><code>mama gedhara yanavaa</code></td>
+                            <td><code>Real-time update ver...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>UI_TC_02</td>
+                            <td>Clear button test</td>
+                            <td><code>mama gedhara yanavaa</code></td>
+                            <td><code>Clear functionality ...</code></td>
+                            <td class="status-pass">
+                                Pass
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </body>
+        </html>
+        
